@@ -1,0 +1,8 @@
+public static string getHash(String tobeHash, String Key){
+var keyTouse = Encoding.UTF8.GetBytes(key);
+var message = Encoding.UTF8.GetBytes(tobeHashed);
+using(var hmac = new HMACSHA256(keyToUse);
+{
+return convert.Tobase.64String(hmac.computeHash(message);
+}
+}
